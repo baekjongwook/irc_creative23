@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+ 
+<launch>
+    <node name="irc_creative23_master_oper" pkg="irc_creative23_master_oper" type="irc_creative23_master_oper" respawn="true" output="screen"/>
+    <include file="$(find kubo_joy)/launch/kubo_joy.launch"/>
+</launch>
